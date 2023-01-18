@@ -209,7 +209,7 @@ footer{
     height: 310px;
 }
 
-@media all and (max-width: 720px) {
+@media all and (max-width: 721px) {
     
     body {
         grid-template-areas: "header"
@@ -259,7 +259,7 @@ footer{
 }
 
 
-@media (max-width: 1024px) and (min-width: 721px) {
+@media (max-width: 1024px) and (min-width: 722px) {
     body {     
         grid-template-areas: "header header header"
                              "nav main aside"
