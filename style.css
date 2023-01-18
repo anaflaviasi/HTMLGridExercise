@@ -32,7 +32,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid rgb(197, 197, 197);
+    border: 1px solid rgb(123, 49, 49);
     padding: 8px 50px;
     border-radius: 20px; 
     margin-right: 10px;
@@ -209,7 +209,7 @@ footer{
     height: 310px;
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 720px) {
     
     body {
         grid-template-areas: "header"
@@ -259,7 +259,7 @@ footer{
 }
 
 
-@media (max-width: 1024px) and (min-width: 601px) {
+@media (max-width: 1024px) and (min-width: 721px) {
     body {     
         grid-template-areas: "header header header"
                              "nav main aside"
